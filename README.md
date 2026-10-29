@@ -8,7 +8,8 @@ A React and TypeScript technical proof of concept for explicitly supplied measur
 - `npm run dev` starts the Vite development server.
 - `npm test` runs the behavior and UI tests.
 - `npm run typecheck` checks TypeScript types.
-- `npm run build` creates the production bundle.
+- `npm run build` creates the production bundle in `dist/`.
+- `npm run preview` serves the built bundle locally at http://localhost:4173/. Run `npm run build` first.
 
 ## Scope and safety
 
